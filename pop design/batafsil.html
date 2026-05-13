@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biz haqimizda</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+            color:#333;
+            line-height:1.7;
+        }
+
+        .hero{
+            background:linear-gradient(rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)),
+            url('img/bg.jpg');
+            background-size:cover;
+            background-position:center;
+            height:300px;
+
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+            color:white;
+        }
+
+        .hero h1{
+            font-size:50px;
+        }
+
+        .container{
+            width:85%;
+            margin:auto;
+            padding:60px 0;
+        }
+
+        .about-box{
+            background:white;
+            padding:40px;
+            border-radius:15px;
+            box-shadow:0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .about-box h2{
+            margin-bottom:20px;
+            color:#2c3e50;
+            font-size:35px;
+        }
+
+        .about-box p{
+            margin-bottom:20px;
+            font-size:18px;
+        }
+
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+            margin-top:40px;
+        }
+
+        .card{
+            background:#fff;
+            padding:25px;
+            border-radius:12px;
+            text-align:center;
+            box-shadow:0 4px 15px rgba(0,0,0,0.08);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+        }
+
+        .card h3{
+            margin-bottom:15px;
+            color:#007bff;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:30px;
+            padding:12px 25px;
+            background:#007bff;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#0056b3;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <h1>Biz haqimizda</h1>
+    </section>
+
+    <div class="container">
+
+        <div class="about-box">
+            <h2>Maktabimiz haqida</h2>
+
+            <p>
+                Bizning maktabimiz o‘quvchilarga sifatli va zamonaviy
+                ta’lim berishni o‘z oldiga maqsad qilgan. Har bir
+                o‘quvchining bilim olishi, iqtidorini rivojlantirishi
+                va kelajakda muvaffaqiyatli inson bo‘lishiga yordam beramiz.
+            </p>
+
+            <p>
+                Maktabimizda tajribali pedagoglar faoliyat yuritadi.
+                Darslar zamonaviy texnologiyalar asosida tashkil etilib,
+                o‘quvchilarning mustaqil fikrlashi va ijodkorligi
+                rivojlantiriladi.
+            </p>
+
+            <p>
+                Turli fan to‘garaklari, sport musobaqalari va
+                tadbirlar orqali o‘quvchilar o‘z qiziqishlarini
+                kengaytirish imkoniyatiga ega bo‘ladilar.
+            </p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Sifatli Ta'lim</h3>
+                    <p>Zamonaviy metodlar asosida yuqori sifatli darslar.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Tajribali Ustozlar</h3>
+                    <p>Malakali va tajribali pedagoglar jamoasi.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Qulay Muhit</h3>
+                    <p>O‘quvchilar uchun qulay va zamonaviy sharoit.</p>
+                </div>
+
+            </div>
+
+            <a href="index.html" class="btn">Bosh sahifaga qaytish</a>
+
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 Maktabimiz | Barcha huquqlar himoyalangan
+    </footer>
+
+</body>
+</html>
